@@ -1,0 +1,213 @@
+{
+  "_instrucciones": "Carta digital de Terraza 45. Edita nombres, descripciones, precios y fotos aquí. 'precio' es un número en soles (sin 'S/'). 'foto' es la ruta dentro de assets/img/. 'etiqueta' es opcional (ej. 'Favorito', 'Para compartir'). Los productos y precios actuales son de EJEMPLO para la demo: reemplázalos por la carta real. Ver README.md.",
+  "moneda": "S/",
+  "nota": "Precios referenciales en soles, incluyen IGV. Sujetos a disponibilidad.",
+  "categorias": [
+    {
+      "id": "cocteles",
+      "nombre": "Cócteles",
+      "items": [
+        {
+          "nombre": "Margarita Despechada",
+          "descripcion": "Tequila, licor de manzana verde, limón y escarchado de sal y azúcar. Ácida como tu ex.",
+          "precio": 32,
+          "foto": "carta/coctel-margarita-verde.webp",
+          "etiqueta": "Favorito"
+        },
+        {
+          "nombre": "Corazón Muerto",
+          "descripcion": "Ron blanco y oscuro, maracuyá, piña y un toque de canela, servido en vaso tiki de calavera.",
+          "precio": 38,
+          "foto": "carta/coctel-tiki-calavera.webp",
+          "etiqueta": "De la casa"
+        },
+        {
+          "nombre": "Ex Tóxico",
+          "descripcion": "Vodka, frutos rojos, limón y espumante. Dulce al inicio, intenso al final.",
+          "precio": 32,
+          "foto": "carta/coctel-frutos-rojos.webp"
+        },
+        {
+          "nombre": "Llorar en Paz",
+          "descripcion": "Pisco, maracuyá, jarabe de goma y espuma de clara, decorado con flor comestible.",
+          "precio": 30,
+          "foto": "carta/coctel-maracuya.webp"
+        },
+        {
+          "nombre": "Mar de Lágrimas",
+          "descripcion": "Tequila, blue curaçao, limón y sal de colores. Para brindar por lo que se fue.",
+          "precio": 30,
+          "foto": "carta/cocteles-azules.webp"
+        },
+        {
+          "nombre": "Amor Amargo",
+          "descripcion": "Nuestro negroni: gin, vermouth rosso y bitter, con piel de naranja.",
+          "precio": 34,
+          "foto": "carta/coctel-negroni.webp"
+        },
+        {
+          "nombre": "Ya No Te Extraño",
+          "descripcion": "Old fashioned con whisky, bitter de angostura y naranja.",
+          "precio": 36,
+          "foto": "carta/coctel-old-fashioned.webp"
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "items": [
+        {
+          "nombre": "Sangría de la casa (jarra)",
+          "descripcion": "Vino tinto, frutas de estación y un toque de licor de naranja. Ideal para 4.",
+          "precio": 55,
+          "foto": "carta/cocteles-mesa.webp",
+          "etiqueta": "Para compartir"
+        },
+        {
+          "nombre": "Limonada frozen",
+          "descripcion": "Clásica, de hierbabuena o de maracuyá.",
+          "precio": 14,
+          "foto": "carta/placeholders/bebida.svg"
+        },
+        {
+          "nombre": "Gaseosa",
+          "descripcion": "Línea Coca-Cola, Inca Kola o Sprite (500 ml).",
+          "precio": 8,
+          "foto": "carta/placeholders/bebida.svg"
+        },
+        {
+          "nombre": "Agua mineral",
+          "descripcion": "Con o sin gas (625 ml).",
+          "precio": 7,
+          "foto": "carta/placeholders/bebida.svg"
+        },
+        {
+          "nombre": "Energizante",
+          "descripcion": "Para aguantar hasta la última canción.",
+          "precio": 15,
+          "foto": "carta/placeholders/bebida.svg"
+        }
+      ]
+    },
+    {
+      "id": "cervezas",
+      "nombre": "Cervezas",
+      "items": [
+        {
+          "nombre": "Cerveza nacional",
+          "descripcion": "Botella de 620 ml bien helada.",
+          "precio": 15,
+          "foto": "carta/placeholders/cerveza.svg"
+        },
+        {
+          "nombre": "Cerveza importada",
+          "descripcion": "Botella personal de 355 ml.",
+          "precio": 18,
+          "foto": "carta/placeholders/cerveza.svg"
+        },
+        {
+          "nombre": "Balde x6",
+          "descripcion": "Seis cervezas nacionales en balde con hielo.",
+          "precio": 79,
+          "foto": "carta/placeholders/cerveza.svg",
+          "etiqueta": "Para compartir"
+        },
+        {
+          "nombre": "Michelada",
+          "descripcion": "Cerveza con limón, sal, salsas y escarchado picante.",
+          "precio": 22,
+          "foto": "carta/placeholders/cerveza.svg"
+        }
+      ]
+    },
+    {
+      "id": "piqueos",
+      "nombre": "Piqueos",
+      "items": [
+        {
+          "nombre": "Tequeños con guacamole",
+          "descripcion": "12 tequeños de queso crocantes con guacamole de la casa.",
+          "precio": 28,
+          "foto": "carta/placeholders/piqueo.svg",
+          "etiqueta": "Favorito"
+        },
+        {
+          "nombre": "Alitas del despecho",
+          "descripcion": "Alitas BBQ, acevichadas o picantes, con papas fritas.",
+          "precio": 36,
+          "foto": "carta/placeholders/piqueo.svg"
+        },
+        {
+          "nombre": "Salchipapa Terraza",
+          "descripcion": "Papas nativas, hot dog, chorizo y cremas al gusto.",
+          "precio": 30,
+          "foto": "carta/placeholders/piqueo.svg"
+        },
+        {
+          "nombre": "Nachos con todo",
+          "descripcion": "Totopos, queso fundido, carne, pico de gallo y jalapeños.",
+          "precio": 32,
+          "foto": "carta/placeholders/piqueo.svg"
+        },
+        {
+          "nombre": "Piqueo para el grupo",
+          "descripcion": "Tequeños, alitas, chicharrón de pollo y papas para 4 a 6 personas.",
+          "precio": 79,
+          "foto": "carta/placeholders/piqueo.svg",
+          "etiqueta": "Para compartir"
+        }
+      ]
+    },
+    {
+      "id": "comida",
+      "nombre": "Comida",
+      "items": [
+        {
+          "nombre": "Hamburguesa Terraza 45",
+          "descripcion": "Carne de res, queso cheddar, tocino, cebolla caramelizada y papas.",
+          "precio": 35,
+          "foto": "carta/placeholders/comida.svg"
+        },
+        {
+          "nombre": "Lomo saltado",
+          "descripcion": "Clásico al wok con papas fritas y arroz.",
+          "precio": 42,
+          "foto": "carta/placeholders/comida.svg"
+        },
+        {
+          "nombre": "Chicharrón de pollo",
+          "descripcion": "Trozos de pollo crocantes con papas y salsa de ají.",
+          "precio": 34,
+          "foto": "carta/placeholders/comida.svg"
+        }
+      ]
+    },
+    {
+      "id": "promociones",
+      "nombre": "Promociones",
+      "items": [
+        {
+          "nombre": "Pack Botella del Despecho",
+          "descripcion": "Botella de ron 750 ml + 4 gaseosas + hielo + piqueo para el grupo.",
+          "precio": 229,
+          "foto": "carta/promo-botella-flor-de-cana.webp",
+          "etiqueta": "Para grupos"
+        },
+        {
+          "nombre": "Pack Amigas",
+          "descripcion": "4 cócteles de la casa a elección para brindar juntas.",
+          "precio": 109,
+          "foto": "carta/cocteles-brindis.webp",
+          "etiqueta": "Despedidas"
+        },
+        {
+          "nombre": "Ronda de shots x6",
+          "descripcion": "Seis shots de tequila con limón y sal. Para el momento de la canción.",
+          "precio": 60,
+          "foto": "carta/shots-tequila.webp"
+        }
+      ]
+    }
+  ]
+}

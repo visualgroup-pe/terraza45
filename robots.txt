@@ -1,0 +1,7 @@
+# robots.txt — Terraza 45
+# Si usas un dominio propio, cambia la URL del sitemap.
+User-agent: *
+Allow: /
+Disallow: /fotos-originales/
+
+Sitemap: https://visualgroup-pe.github.io/terraza45/sitemap.xml

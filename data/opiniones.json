@@ -1,0 +1,37 @@
+{
+  "_instrucciones": "Resumen de calificaciones y testimonios. Los testimonios actuales son TEXTOS DE EJEMPLO para la demo: reemplázalos por reseñas reales copiadas de Google o Facebook (con el nombre tal como aparece en la reseña). 'estrellas' va de 1 a 5. Ver README.md.",
+  "resumen": {
+    "google": {
+      "calificacion": 4.6,
+      "total": 394,
+      "url": "https://www.google.com/maps/search/?api=1&query=Terraza+45+Show+Bar+del+Despecho+Av.+Aviaci%C3%B3n+4522+Surco"
+    },
+    "facebook": {
+      "calificacion": 5,
+      "url": "https://www.facebook.com/45Terraza/"
+    }
+  },
+  "testimonios": [
+    {
+      "nombre": "Andrea M.",
+      "fuente": "Google",
+      "estrellas": 5,
+      "texto": "Celebramos la despedida de mi prima y fue lo máximo. El show en vivo te hace cantar a todo pulmón y los cócteles están buenazos. ¡Volveremos!",
+      "contexto": "Despedida de soltera"
+    },
+    {
+      "nombre": "Karla R.",
+      "fuente": "Google",
+      "estrellas": 5,
+      "texto": "Puro despecho del bueno: música de los 90s y 2000, buen ambiente y atención rápida. Reserva con tiempo porque se llena.",
+      "contexto": "Salida con amigas"
+    },
+    {
+      "nombre": "Diego P.",
+      "fuente": "Facebook",
+      "estrellas": 5,
+      "texto": "Fui por un cumpleaños y terminamos bailando hasta el final. La terraza es muy bonita y el personal súper amable.",
+      "contexto": "Cumpleaños"
+    }
+  ]
+}
