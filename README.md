@@ -95,6 +95,10 @@ Para que **Google** también vea el dato nuevo, cambia lo mismo en `index.html`:
 
 > ⚠ **Por confirmar con el cliente:** días de atención y hora de cierre. Cuando se sepa la hora de cierre, agrégala en el JSON-LD como `"closes": "03:00"` junto a `"opens"`.
 
+### Redes sociales
+
+Instagram (`https://www.instagram.com/terraza45_/`), TikTok (`https://www.tiktok.com/@terraza45_`) y Facebook (`https://www.facebook.com/45Terraza/`) aparecen como íconos en el **menú** y en el **footer**. Para cambiar un enlace, busca la URL en `index.html` y reemplázala en todos los lugares (menú, footer y `sameAs` del JSON-LD).
+
 ---
 
 ## 5. Editar la carta (`data/carta.json`)
