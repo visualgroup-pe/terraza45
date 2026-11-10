@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- =========================================================
+       SEO básico
+       Si cambias de dominio (ej. www.terraza45.pe), reemplaza
+       "https://visualgroup-pe.github.io/terraza45/" en este archivo,
+       en sitemap.xml y en robots.txt.
+       ========================================================= -->
+  <title>Terraza 45 | Bar del Despecho en Lima – Show Bar en Surco</title>
+  <meta name="description" content="Terraza 45, el 1.er Bar del Despecho en Lima: shows en vivo, música de los 90s y 2000 y buenos cócteles en Surco. El lugar para celebrar cumpleaños y despedidas de soltera en Lima. ¡Reserva tu mesa!">
+  <meta name="keywords" content="bar del despecho en Lima, show bar Lima, bares en Surco, dónde celebrar cumpleaños en Lima, despedida de soltera Lima, música de los 90s Lima, Terraza 45">
+  <meta name="theme-color" content="#0B0508">
+  <link rel="canonical" href="https://visualgroup-pe.github.io/terraza45/">
+
+  <!-- Google Search Console:
+       1) Entra a https://search.google.com/search-console y agrega la propiedad
+          con "Prefijo de URL" (la URL de tu sitio).
+       2) Elige el método "Etiqueta HTML", copia el código del atributo content
+          y pégalo abajo, descomentando la línea.
+       3) Sube el cambio, pulsa "Verificar" y luego envía sitemap.xml en "Sitemaps". -->
+  <!-- <meta name="google-site-verification" content="PEGA-AQUI-TU-CODIGO"> -->
+
+  <!-- Open Graph (Facebook / WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="Terraza 45 – Show Bar del Despecho">
+  <meta property="og:title" content="Terraza 45 – El 1.er Bar del Despecho en Lima">
+  <meta property="og:description" content="Shows en vivo, música de los 90s y 2000 y cócteles para soltar el despecho. Cumpleaños, despedidas y salidas con amigas en Surco.">
+  <meta property="og:url" content="https://visualgroup-pe.github.io/terraza45/">
+  <meta property="og:image" content="https://visualgroup-pe.github.io/terraza45/assets/img/og/og-terraza45.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo de Terraza 45 sobre el escenario del show en vivo">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Terraza 45 – El 1.er Bar del Despecho en Lima">
+  <meta name="twitter:description" content="Shows en vivo, música de los 90s y 2000 y buenos cócteles en Surco. ¡Reserva tu mesa!">
+  <meta name="twitter:image" content="https://visualgroup-pe.github.io/terraza45/assets/img/og/og-terraza45.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon/icon-512.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png">
+
+  <!-- Tipografías: Playfair Display (títulos) + Outfit (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Precarga de la primera imagen del hero (mejora la carga inicial) -->
+  <link rel="preload" as="image" href="assets/img/hero/hero-show-escenario.webp" type="image/webp">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- =========================================================
+       Google Analytics 4
+       Reemplaza G-XXXXXXXXXX por tu ID de medición
+       (GA4 → Administrar → Flujos de datos → Web → "ID de medición").
+       Mientras siga como G-XXXXXXXXXX, no se carga nada.
+       ========================================================= -->
+  <script>
+    window.GA4_ID = 'G-XXXXXXXXXX';
+    if (!/X{6,}/.test(window.GA4_ID)) {
+      var ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.GA4_ID;
+      document.head.appendChild(ga);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { dataLayer.push(arguments); };
+      gtag('js', new Date());
+      gtag('config', window.GA4_ID);
+    }
+  </script>
+
+  <!-- Datos estructurados (Schema.org) para Google.
+       Si cambian teléfono, horario o dirección, actualízalos también aquí. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarOrNightClub",
+    "name": "Terraza 45 – Show Bar del Despecho",
+    "alternateName": "Terraza 45",
+    "slogan": "El 1.er Bar del Despecho en Lima",
+    "description": "Show bar nocturno con shows en vivo y música de los 90s y 2000. Ideal para despedidas de soltera, cumpleaños y salidas con amigas.",
+    "url": "https://visualgroup-pe.github.io/terraza45/",
+    "image": "https://visualgroup-pe.github.io/terraza45/assets/img/og/og-terraza45.jpg",
+    "logo": "https://visualgroup-pe.github.io/terraza45/assets/img/logo/terraza-45-logo.png",
+    "telephone": "+51952573180",
+    "priceRange": "S/ 40 - S/ 160",
+    "currenciesAccepted": "PEN",
+    "servesCuisine": "Cócteles y piqueos",
+    "acceptsReservations": "True",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Aviación 4522",
+      "addressLocality": "Santiago de Surco",
+      "addressRegion": "Lima",
+      "postalCode": "15038",
+      "addressCountry": "PE"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "18:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "bestRating": "5",
+      "reviewCount": "394"
+    },
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Asientos en la terraza", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Shows en vivo", "value": true }
+    ],
+    "sameAs": ["https://www.facebook.com/45Terraza/"]
+  }
+  </script>
+
+  <!-- Configuración del negocio (teléfono, WhatsApp, horario). Edita js/config.js -->
+  <script src="js/config.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- =========================================================
+       CABECERA + NAVEGACIÓN
+       ========================================================= -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a class="header__logo" href="#inicio" aria-label="Terraza 45 – ir al inicio">
+        <img src="assets/img/logo/terraza-45-logo.webp" alt="Terraza 45" width="900" height="154">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#experiencia">La experiencia</a></li>
+          <li><a class="nav__link" href="#eventos">Eventos</a></li>
+          <li><a class="nav__link" href="#carta">Carta</a></li>
+          <li><a class="nav__link" href="#galeria">Galería</a></li>
+          <li><a class="nav__link" href="#opiniones">Opiniones</a></li>
+          <li><a class="nav__link" href="#ubicacion">Ubicación</a></li>
+        </ul>
+        <a class="btn btn--primary btn--sm nav__cta" href="#reservas">Reservar</a>
+      </nav>
+
+      <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- =========================================================
+         1. HERO / INICIO
+         Fotos de fondo: assets/img/hero/ (se alternan en bucle).
+         Para usar VIDEO de fondo: coloca assets/video/hero.mp4 y descomenta
+         el <video> de abajo (el video tapa las fotos automáticamente).
+         ========================================================= -->
+    <section class="hero" id="inicio" aria-label="Inicio">
+      <div class="hero__media" aria-hidden="true">
+        <div class="hero__bg" data-parallax>
+          <img class="hero__slide is-active" src="assets/img/hero/hero-show-escenario.webp" alt="" width="704" height="756" fetchpriority="high">
+          <img class="hero__slide" src="assets/img/hero/hero-maldito-despecho.webp" alt="" width="574" height="760" decoding="async">
+          <img class="hero__slide" src="assets/img/hero/hero-despedida.webp" alt="" width="690" height="769" decoding="async">
+          <!--
+          <video class="hero__video" autoplay muted loop playsinline poster="assets/img/hero/hero-show-escenario.webp">
+            <source src="assets/video/hero.mp4" type="video/mp4">
+          </video>
+          -->
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__grain"></div>
+      </div>
+
+      <!-- Collage nítido solo en pantallas grandes -->
+      <div class="hero__collage" aria-hidden="true">
+        <figure class="polaroid polaroid--1"><img src="assets/img/hero/hero-show-escenario.webp" alt="" width="704" height="756"></figure>
+        <figure class="polaroid polaroid--2"><img src="assets/img/hero/hero-despedida.webp" alt="" width="690" height="769"></figure>
+        <figure class="polaroid polaroid--3"><img src="assets/img/hero/hero-maldito-despecho.webp" alt="" width="574" height="760"></figure>
+      </div>
+
+      <div class="hero__content container">
+        <p class="hero__eyebrow anim-in" style="--d:.1s">
+          <span class="dot-live"></span> Show bar · Santiago de Surco
+        </p>
+        <h1 class="hero__title anim-in" style="--d:.25s">
+          El 1.<sup>er</sup> Bar del <em class="neon">Despecho</em> en Lima
+        </h1>
+        <p class="hero__lead anim-in" style="--d:.45s">
+          Shows en vivo, música de los 90s y 2000 y una noche entera para
+          cantar, bailar y <strong>soltar el despecho</strong>.
+        </p>
+        <div class="hero__actions anim-in" style="--d:.6s">
+          <a class="btn btn--primary btn--lg" href="https://wa.link/gfk7by" target="_blank" rel="noopener" data-wa-link data-track="reserva_hero">
+            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Reserva tu mesa
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#carta">Ver la carta</a>
+        </div>
+        <ul class="hero__badges anim-in" style="--d:.75s">
+          <li><span class="stars" aria-hidden="true">★</span> <strong>4.6</strong> en Google <span class="muted">(394 opiniones)</span></li>
+          <li><span data-config="horarioCorto">Jue a Dom · desde 6:00 p.m.</span></li>
+          <li class="hero__today" data-hoy hidden></li>
+        </ul>
+      </div>
+
+      <a class="hero__scroll" href="#experiencia" aria-label="Bajar a La experiencia">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Cinta animada -->
+    <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee">
+      <div class="marquee__track">
+        <span>Shows en vivo</span><span>✦</span><span>Despedidas de soltera</span><span>✦</span><span>Cumpleaños</span><span>✦</span><span>Música de los 90s y 2000</span><span>✦</span><span>Buenos cócteles</span><span>✦</span><span>Asientos en la terraza</span><span>✦</span>
+        <span>Shows en vivo</span><span>✦</span><span>Despedidas de soltera</span><span>✦</span><span>Cumpleaños</span><span>✦</span><span>Música de los 90s y 2000</span><span>✦</span><span>Buenos cócteles</span><span>✦</span><span>Asientos en la terraza</span><span>✦</span>
+      </div>
+    </div>
+    </div>
+
+    <!-- =========================================================
+         2. LA EXPERIENCIA TERRAZA 45
+         ========================================================= -->
+    <section class="section experiencia" id="experiencia">
+      <div class="container experiencia__grid">
+        <div class="experiencia__text">
+          <p class="eyebrow" data-reveal>La experiencia Terraza 45</p>
+          <h2 class="section__title" data-reveal>Aquí el despecho <em>se canta</em>, se baila y se brinda</h2>
+          <p class="section__lead" data-reveal>
+            Somos un show bar nocturno en Surco hecho para las noches de fiesta:
+            canto, baile, espectáculo y diversión con las canciones que todas
+            nos sabemos de memoria.
+          </p>
+
+          <ul class="features">
+            <li class="feature" data-reveal>
+              <span class="feature__icon"><svg class="ico" aria-hidden="true"><use href="#i-mic"/></svg></span>
+              <div>
+                <h3>Shows en vivo</h3>
+                <p>Artistas, animación y personajes que convierten cada noche en un espectáculo.</p>
+              </div>
+            </li>
+            <li class="feature" data-reveal>
+              <span class="feature__icon"><svg class="ico" aria-hidden="true"><use href="#i-music"/></svg></span>
+              <div>
+                <h3>Música de los 90s y 2000</h3>
+                <p>Baladas, salsa, cumbia y pop para cantar a todo pulmón con tu grupo.</p>
+              </div>
+            </li>
+            <li class="feature" data-reveal>
+              <span class="feature__icon"><svg class="ico" aria-hidden="true"><use href="#i-heart"/></svg></span>
+              <div>
+                <h3>Suelta el despecho</h3>
+                <p>Buenos cócteles, asientos en la terraza y un ambiente donde nadie te juzga.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="experiencia__collage" data-reveal>
+          <img class="ec ec--1" src="assets/img/experiencia/show-en-vivo.webp" alt="Show en vivo en el escenario de Terraza 45 con bolas de disco y público" width="704" height="756" loading="lazy" decoding="async">
+          <img class="ec ec--2" src="assets/img/experiencia/cantante-show.webp" alt="Cantante con saco de lentejuelas animando al público" width="489" height="755" loading="lazy" decoding="async">
+          <img class="ec ec--3" src="assets/img/experiencia/letrero-show-bar.webp" alt="Letrero luminoso SHOW BAR de Terraza 45" width="447" height="447" loading="lazy" decoding="async">
+          <span class="ec__sticker">90s<br>&amp; 2000</span>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="stats">
+          <li class="stat" data-reveal><strong data-count="4.6" data-decimals="1">4.6</strong><span>★ en Google</span></li>
+          <li class="stat" data-reveal><strong data-count="394">394</strong><span>opiniones</span></li>
+          <li class="stat" data-reveal><strong>Jue–Dom</strong><span>desde las 6:00 p.m.</span></li>
+          <li class="stat" data-reveal><strong>S/ 40–160</strong><span>por persona</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. EVENTOS
+         Los beneficios y promociones son de EJEMPLO: confírmalos con el local.
+         ========================================================= -->
+    <section class="section section--alt eventos" id="eventos">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Eventos y celebraciones</p>
+          <h2 class="section__title" data-reveal>¿Dónde celebrar en Lima? <em>Aquí, con show</em></h2>
+          <p class="section__lead" data-reveal>Despedidas de soltera, cumpleaños y salidas de grupo con mesa reservada, música y toda la energía del show.</p>
+        </header>
+
+        <div class="eventos__grid">
+          <article class="evento" data-reveal>
+            <div class="evento__img">
+              <img src="assets/img/eventos/despedida-novia.webp" alt="Novia con lentes Bride to be celebrando su despedida de soltera en Terraza 45" width="690" height="769" loading="lazy" decoding="async">
+              <span class="evento__tag">La más pedida</span>
+            </div>
+            <div class="evento__body">
+              <h3>Despedidas de soltera</h3>
+              <p>La última noche de soltera merece un show. Canta, baila y brinda con tus amigas antes del gran día.</p>
+              <ul class="checklist">
+                <li>Mesa reservada para todo el grupo</li>
+                <li>Saludo especial a la novia durante el show</li>
+                <li>Packs de cócteles para compartir</li>
+              </ul>
+              <a class="btn btn--primary" href="#reservas" data-wa-msg="Hola Terraza 45, quiero reservar para una despedida de soltera 👰 ¿Qué paquetes tienen?" data-track="evento_despedida">
+                <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> Cotizar despedida
+              </a>
+            </div>
+          </article>
+
+          <article class="evento" data-reveal>
+            <div class="evento__img">
+              <img src="assets/img/eventos/cumpleanos-bengala.webp" alt="Chica celebrando su cumpleaños con una bengala en Terraza 45" width="543" height="763" loading="lazy" decoding="async">
+            </div>
+            <div class="evento__body">
+              <h3>Cumpleaños</h3>
+              <p>Sopla las velas con tus canciones favoritas de fondo y un público que celebra contigo.</p>
+              <ul class="checklist">
+                <li>Mesa reservada y ubicación preferente</li>
+                <li>Momento especial para el cumpleañero</li>
+                <li>Promociones en botellas y piqueos</li>
+              </ul>
+              <a class="btn btn--primary" href="#reservas" data-wa-msg="Hola Terraza 45, quiero celebrar un cumpleaños 🎂 ¿Me ayudan con la reserva?" data-track="evento_cumple">
+                <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> Reservar cumpleaños
+              </a>
+            </div>
+          </article>
+
+          <article class="evento" data-reveal>
+            <div class="evento__img">
+              <img src="assets/img/eventos/despedida-grupo.webp" alt="Grupo de amigas con lentes de corazón disfrutando la noche" width="575" height="750" loading="lazy" decoding="async">
+            </div>
+            <div class="evento__body">
+              <h3>Grupos y salidas con amigas</h3>
+              <p>¿Noche de chicas, after office o reencuentro? Arma el plan y nosotras ponemos el despecho.</p>
+              <ul class="checklist">
+                <li>Mesas para grupos grandes</li>
+                <li>Pack Amigas y rondas de shots</li>
+                <li>Asientos en la terraza</li>
+              </ul>
+              <a class="btn btn--primary" href="#reservas" data-wa-msg="Hola Terraza 45, queremos reservar para un grupo de amigas 💃 ¿Tienen disponibilidad?" data-track="evento_grupo">
+                <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> Reservar para grupo
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <aside class="promo-band" data-reveal>
+          <div>
+            <p class="promo-band__kicker">Se requieren reservas</p>
+            <p class="promo-band__title">Las noches se llenan rápido. <em>Asegura tu mesa hoy.</em></p>
+          </div>
+          <a class="btn btn--amber btn--lg" href="https://wa.link/gfk7by" target="_blank" rel="noopener" data-wa-link data-track="reserva_banda">
+            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> Escríbenos por WhatsApp
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. CARTA DIGITAL
+         Los productos se cargan desde data/carta.json (ver README).
+         ========================================================= -->
+    <section class="section carta" id="carta">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Carta digital</p>
+          <h2 class="section__title" data-reveal>Para brindar <em>por lo que se fue</em></h2>
+          <p class="section__lead" data-reveal>Cócteles de autor, cervezas heladas y piqueos para compartir. Rango de precio: S/ 40 a S/ 160 por persona.</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Categorías de la carta" id="carta-tabs"></div>
+        <div class="carta__grid" id="carta-grid" aria-live="polite">
+          <p class="loading">Cargando carta…</p>
+        </div>
+        <p class="carta__nota" id="carta-nota"></p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. GALERÍA
+         Fotos: assets/img/galeria/ + lista en data/galeria.json
+         ========================================================= -->
+    <section class="section section--alt galeria" id="galeria">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Galería</p>
+          <h2 class="section__title" data-reveal>Así se vive <em>una noche en Terraza 45</em></h2>
+        </header>
+        <div class="galeria__grid" id="galeria-grid">
+          <p class="loading">Cargando fotos…</p>
+        </div>
+        <p class="galeria__more" data-reveal>
+          <a class="btn btn--ghost" href="https://www.facebook.com/45Terraza/" target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg> Más fotos en Facebook
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. OPINIONES
+         Datos en data/opiniones.json
+         ========================================================= -->
+    <section class="section opiniones" id="opiniones">
+      <div class="container opiniones__grid">
+        <div class="rating" data-reveal>
+          <p class="eyebrow">Opiniones</p>
+          <h2 class="section__title">Lo dicen <em>quienes ya soltaron el despecho</em></h2>
+          <div class="rating__box">
+            <div class="rating__score">
+              <strong id="rating-google">4.6</strong>
+              <div>
+                <div class="rating__stars" aria-hidden="true"><span style="--p:92%"></span></div>
+                <p><span id="rating-google-total">394</span> opiniones en Google</p>
+              </div>
+            </div>
+            <div class="rating__fb">
+              <svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg>
+              <p><strong id="rating-fb">5/5</strong> en Facebook</p>
+            </div>
+          </div>
+          <a class="btn btn--ghost" id="rating-google-link" href="https://www.google.com/maps/search/?api=1&amp;query=Terraza+45+Show+Bar+del+Despecho+Av.+Aviaci%C3%B3n+4522+Surco" target="_blank" rel="noopener">Ver opiniones en Google</a>
+        </div>
+        <div class="testimonios" id="testimonios"></div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         RESERVAS (formulario → WhatsApp)
+         Ver js/main.js → initReservas() para cambiarlo a Formspree.
+         ========================================================= -->
+    <section class="section section--alt reservas" id="reservas">
+      <div class="container reservas__grid">
+        <div class="reservas__intro" data-reveal>
+          <p class="eyebrow">Reservas</p>
+          <h2 class="section__title">Reserva tu mesa <em>en un minuto</em></h2>
+          <p class="section__lead">Completa tus datos y te abrimos WhatsApp con el mensaje listo para enviar. Te confirmamos la disponibilidad por ahí.</p>
+          <ul class="reservas__tips">
+            <li><svg class="ico" aria-hidden="true"><use href="#i-calendar"/></svg> <span data-config="horarioTexto">Jueves a domingo desde las 6:00 p.m.</span></li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-users"/></svg> Ideal para grupos, cumpleaños y despedidas</li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> ¿Prefieres llamar? <a href="tel:+51952573180" data-config-href="tel"><span data-config="telefono">952 573 180</span></a></li>
+          </ul>
+        </div>
+
+        <!-- Para recibir reservas por correo con Formspree:
+             1) Crea un formulario gratis en https://formspree.io y copia tu endpoint.
+             2) Cambia este <form> por:
+                <form class="form" id="form-reserva" action="https://formspree.io/f/TU_ID" method="POST">
+             3) En js/config.js pon  reservaModo: 'formspree'  (ver initReservas en js/main.js). -->
+        <form class="form" id="form-reserva" novalidate data-reveal>
+          <div class="form__row">
+            <label class="field">
+              <span>Nombre *</span>
+              <input type="text" name="nombre" autocomplete="name" required placeholder="¿Cómo te llamas?">
+            </label>
+            <label class="field">
+              <span>Celular</span>
+              <input type="tel" name="celular" autocomplete="tel" inputmode="tel" placeholder="9XX XXX XXX">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field">
+              <span>Fecha *</span>
+              <input type="date" name="fecha" required>
+            </label>
+            <label class="field">
+              <span>Hora de llegada</span>
+              <input type="time" name="hora" value="20:00" step="900">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field">
+              <span>N.º de personas *</span>
+              <input type="number" name="personas" min="1" max="60" value="4" required inputmode="numeric">
+            </label>
+            <label class="field">
+              <span>Motivo</span>
+              <select name="motivo">
+                <option>Salida con amigas</option>
+                <option>Cumpleaños</option>
+                <option>Despedida de soltera</option>
+                <option>After office</option>
+                <option>Otro</option>
+              </select>
+            </label>
+          </div>
+          <label class="field">
+            <span>Comentarios</span>
+            <textarea name="comentarios" rows="3" placeholder="¿Algo que debamos saber? (decoración, torta, terraza…)"></textarea>
+          </label>
+          <p class="form__hint" id="form-hint" role="status" aria-live="polite"></p>
+          <button class="btn btn--primary btn--lg btn--block" type="submit">
+            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> Enviar reserva por WhatsApp
+          </button>
+          <p class="form__legal">Al enviar se abrirá WhatsApp con tu mensaje. No guardamos tus datos en este sitio.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. SEDE Y UBICACIÓN
+         ========================================================= -->
+    <section class="section ubicacion" id="ubicacion">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow" data-reveal>Sede y ubicación</p>
+          <h2 class="section__title" data-reveal>Te esperamos <em>en Surco</em></h2>
+        </header>
+
+        <div class="ubicacion__grid">
+          <div class="sede" data-reveal>
+            <img class="sede__img" src="assets/img/sede/sede-show-bar.webp" alt="Letrero SHOW BAR en la sede de Terraza 45 en Santiago de Surco" width="447" height="447" loading="lazy" decoding="async">
+            <dl class="sede__list">
+              <div>
+                <dt><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg> Dirección</dt>
+                <dd><address data-config="direccion">Av. Aviación 4522, Santiago de Surco 15038, Lima – Perú</address></dd>
+              </div>
+              <div>
+                <dt><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg> Horario</dt>
+                <dd data-config="horarioTexto">Jueves a domingo desde las 6:00 p.m.</dd>
+              </div>
+              <div>
+                <dt><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Teléfono</dt>
+                <dd><a href="tel:+51952573180" data-config-href="tel"><span data-config="telefono">952 573 180</span></a></dd>
+              </div>
+              <div>
+                <dt><svg class="ico" aria-hidden="true"><use href="#i-wallet"/></svg> Precio</dt>
+                <dd>S/ 40 a S/ 160 por persona</dd>
+              </div>
+            </dl>
+            <ul class="chips">
+              <li>Se requieren reservas</li>
+              <li>Asientos en la terraza</li>
+              <li>Buenos cócteles</li>
+            </ul>
+            <div class="sede__actions">
+              <a class="btn btn--primary" href="https://wa.link/gfk7by" target="_blank" rel="noopener" data-wa-link data-track="reserva_sede">
+                <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg> WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+Aviaci%C3%B3n+4522,+Santiago+de+Surco+15038,+Lima,+Per%C3%BA" target="_blank" rel="noopener">
+                <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg> Cómo llegar
+              </a>
+            </div>
+          </div>
+
+          <div class="mapa" data-reveal>
+            <iframe
+              title="Mapa de Terraza 45 en Av. Aviación 4522, Santiago de Surco"
+              src="https://www.google.com/maps?q=Av.+Aviaci%C3%B3n+4522,+Santiago+de+Surco+15038,+Lima,+Per%C3%BA&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       8. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logo/terraza-45-logo.webp" alt="Terraza 45" width="900" height="154" loading="lazy">
+        <p>Show Bar del Despecho. El 1.<sup>er</sup> Bar del Despecho en Lima.</p>
+        <a class="social" href="https://www.facebook.com/45Terraza/" target="_blank" rel="noopener" aria-label="Terraza 45 en Facebook">
+          <svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg>
+        </a>
+      </div>
+      <div>
+        <h2 class="footer__title">Contacto</h2>
+        <ul class="footer__list">
+          <li data-config="direccion">Av. Aviación 4522, Santiago de Surco 15038, Lima – Perú</li>
+          <li><a href="tel:+51952573180" data-config-href="tel"><span data-config="telefono">952 573 180</span></a></li>
+          <li><a href="https://wa.link/gfk7by" target="_blank" rel="noopener" data-wa-link>Reservas por WhatsApp</a></li>
+          <li data-config="horarioTexto">Jueves a domingo desde las 6:00 p.m.</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer__title">Explora</h2>
+        <ul class="footer__list">
+          <li><a href="#experiencia">La experiencia</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#carta">Carta</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#reservas">Reservas</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Terraza 45 – Show Bar del Despecho. Todos los derechos reservados.</p>
+      <p class="muted">Bebe con moderación. Prohibida la venta de alcohol a menores de 18 años.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float" href="https://wa.link/gfk7by" target="_blank" rel="noopener" aria-label="Reservar por WhatsApp" data-wa-link data-track="reserva_flotante">
+    <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+    <span class="wa-float__label">¡Reserva aquí!</span>
+  </a>
+
+  <!-- Lightbox de la galería -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <button class="lightbox__close" type="button" aria-label="Cerrar">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Foto anterior">‹</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="" alt="">
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Foto siguiente">›</button>
+  </div>
+
+  <!-- Íconos SVG (se usan con <use href="#i-...">) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24s8.23 3.7 8.23 8.24-3.69 8.24-8.23 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21.9v-7.9h2.65l.4-3.08H13.5V8.95c0-.89.25-1.5 1.53-1.5h1.63V4.7c-.28-.04-1.25-.12-2.38-.12-2.36 0-3.97 1.44-3.97 4.08v2.27H7.65V14h2.66v7.9h3.19Z"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="12" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21.5M8.5 21.5h7"/></g></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5s-8-4.9-8-10.6A4.4 4.4 0 0 1 12 7.4a4.4 4.4 0 0 1 8 2.5c0 5.7-8 10.6-8 10.6Z"/><path d="m12.8 8.6-1.8 3.6h2.6L11.8 16"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3.5h3.2l1.6 4.2-2 1.3a11 11 0 0 0 5.2 5.2l1.3-2 4.2 1.6V17a2.5 2.5 0 0 1-2.7 2.5A15.5 15.5 0 0 1 2.5 6.2 2.5 2.5 0 0 1 5 3.5Z"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10h18M16.5 14.5h1"/></g></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 14a6.5 6.5 0 0 1 3 6"/></g></symbol>
+  </svg>
+</body>
+</html>

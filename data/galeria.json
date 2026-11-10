@@ -1,0 +1,137 @@
+{
+  "_instrucciones": "Lista de fotos de la galería. Cada foto debe existir en assets/img/galeria/ (tamaño grande) y en assets/img/galeria/thumbs/ (miniatura). Ver README.",
+  "fotos": [
+    {
+      "archivo": "01-show-escenario.webp",
+      "alt": "Show en vivo en el escenario de Terraza 45 con bolas de disco",
+      "ancho": 521,
+      "alto": 560
+    },
+    {
+      "archivo": "02-maldito-despecho.webp",
+      "alt": "Grupo de amigas cantando frente a la pantalla Maldito Despecho",
+      "ancho": 423,
+      "alto": 560
+    },
+    {
+      "archivo": "03-novia-despedida.webp",
+      "alt": "Novia con lentes Bride to be en su despedida de soltera",
+      "ancho": 502,
+      "alto": 560
+    },
+    {
+      "archivo": "04-cantante-en-vivo.webp",
+      "alt": "Cantante con saco de lentejuelas animando el show en vivo",
+      "ancho": 363,
+      "alto": 560
+    },
+    {
+      "archivo": "05-despedida-amigas.webp",
+      "alt": "Grupo de amigas con lentes de corazón en una despedida de soltera",
+      "ancho": 429,
+      "alto": 560
+    },
+    {
+      "archivo": "06-bartender.webp",
+      "alt": "Bartender de Terraza 45 preparando un cóctel en la barra",
+      "ancho": 511,
+      "alto": 560
+    },
+    {
+      "archivo": "07-cumpleanos.webp",
+      "alt": "Chica celebrando su cumpleaños con una bengala en Terraza 45",
+      "ancho": 399,
+      "alto": 560
+    },
+    {
+      "archivo": "08-letrero-show-bar.webp",
+      "alt": "Letrero luminoso SHOW BAR con bolas de disco",
+      "ancho": 447,
+      "alto": 447
+    },
+    {
+      "archivo": "09-novia-brindis.webp",
+      "alt": "Novia brindando con un cóctel rojo",
+      "ancho": 404,
+      "alto": 560
+    },
+    {
+      "archivo": "10-show-personaje.webp",
+      "alt": "Artista del show con disfraz de policía y lentes oscuros",
+      "ancho": 392,
+      "alto": 560
+    },
+    {
+      "archivo": "11-amigas-bailando.webp",
+      "alt": "Amigas bailando con cócteles en la pista",
+      "ancho": 406,
+      "alto": 560
+    },
+    {
+      "archivo": "12-pareja-neon.webp",
+      "alt": "Pareja posando bajo el letrero de neón",
+      "ancho": 551,
+      "alto": 560
+    },
+    {
+      "archivo": "13-baile-despecho.webp",
+      "alt": "Chica bailando con los brazos en alto bajo luces rosadas",
+      "ancho": 399,
+      "alto": 501
+    },
+    {
+      "archivo": "14-bartender-shaker.webp",
+      "alt": "Bartender agitando un cóctel en la barra iluminada",
+      "ancho": 440,
+      "alto": 560
+    },
+    {
+      "archivo": "15-cliente-coctel.webp",
+      "alt": "Chica disfrutando un cóctel bajo luces moradas",
+      "ancho": 447,
+      "alto": 447
+    },
+    {
+      "archivo": "16-selfie-amigas.webp",
+      "alt": "Amigas tomándose una selfie en la noche de despecho",
+      "ancho": 314,
+      "alto": 560
+    },
+    {
+      "archivo": "17-amigas-abrazo.webp",
+      "alt": "Amigas abrazadas posando para la foto",
+      "ancho": 448,
+      "alto": 560
+    },
+    {
+      "archivo": "18-coctel-rosado.webp",
+      "alt": "Chica tomando un cóctel rosado junto a la barra",
+      "ancho": 387,
+      "alto": 516
+    },
+    {
+      "archivo": "19-clientes-noche.webp",
+      "alt": "Clientes disfrutando la noche con bengalas",
+      "ancho": 225,
+      "alto": 225
+    },
+    {
+      "archivo": "20-bartender-show.webp",
+      "alt": "Bartender haciendo flair con la coctelera",
+      "ancho": 314,
+      "alto": 560
+    },
+    {
+      "archivo": "21-cocteles-azules.webp",
+      "alt": "Bartender sirviendo tres cócteles azules",
+      "ancho": 374,
+      "alto": 560
+    },
+    {
+      "archivo": "22-shots.webp",
+      "alt": "Shots de tequila servidos en la barra",
+      "ancho": 393,
+      "alto": 508
+    }
+  ]
+}
