@@ -55,7 +55,9 @@
   <!-- Precarga de la primera imagen del hero (mejora la carga inicial) -->
   <link rel="preload" as="image" href="assets/img/hero/hero-show-escenario.webp" type="image/webp">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- El "?v=" evita que el navegador use una versión vieja guardada en caché.
+       Cada vez que edites css/ o js/, cambia ese número (ej. ?v=20261115-1) aquí y en los <script> de abajo. -->
+  <link rel="stylesheet" href="css/styles.css?v=20261110-2">
 
   <!-- =========================================================
        Google Analytics 4
@@ -129,8 +131,8 @@
   </script>
 
   <!-- Configuración del negocio (teléfono, WhatsApp, horario). Edita js/config.js -->
-  <script src="js/config.js"></script>
-  <script src="js/main.js" defer></script>
+  <script src="js/config.js?v=20261110-2"></script>
+  <script src="js/main.js?v=20261110-2" defer></script>
 </head>
 
 <body>

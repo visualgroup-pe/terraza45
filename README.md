@@ -68,6 +68,12 @@ y abre http://localhost:8000 (o usa la extensión *Live Server* de VS Code).
 
 ---
 
+### Caché del navegador
+
+En `index.html` los archivos CSS y JS se cargan con un número de versión (`css/styles.css?v=20261110-2`). **Cada vez que modifiques algo en `css/` o `js/`, cambia ese número** (en el `<link>` y en los dos `<script>`); así los visitantes no verán una mezcla de la versión vieja y la nueva. Los JSON de `data/` siempre se cargan sin caché.
+
+---
+
 ## 4. Cambiar teléfono, WhatsApp, dirección u horario
 
 Edita **`js/config.js`**:
